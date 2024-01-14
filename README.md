@@ -19,7 +19,7 @@
     </body>
     ```
 2. 创建 DOM 元素，然后添加到容器元素中
-    ```
+    ```js
     const year = 2024  // 年份
     const month = 1  // 月份
     const element = Daily(year, month)
