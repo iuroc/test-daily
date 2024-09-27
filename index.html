@@ -1,14 +1,22 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VanJS Demo</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="./index-714556c8.css">
+    <script src="./index-3e83eeb9.js"></script>
 </head>
 
 <body>
-    <script type="module" src="src/index.ts"></script>
+    <div id="app" style="max-width: 300px; margin: 20px;"></div>
+    <script>
+        const app = document.getElementById('app')
+        // 设置日历展示的年月
+        const [year, month] = [2024, 1]
+        app.appendChild(Daily(year, month))
+    </script>
 </body>
 
 </html>
